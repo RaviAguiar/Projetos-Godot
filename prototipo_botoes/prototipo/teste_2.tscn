@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://b2dul47xgntme"]
+
+[ext_resource type="PackedScene" uid="uid://baj6t5mdto1g" path="res://prototipo/botoes_2.tscn" id="1_vw2ds"]
+[ext_resource type="Script" uid="uid://chdyipdf1qfvr" path="res://prototipo/potion_1.gd" id="2_4comb"]
+[ext_resource type="Script" uid="uid://kloi6wc1v6xj" path="res://prototipo/potion_2.gd" id="3_p0ifw"]
+[ext_resource type="Script" uid="uid://dwu5nrxm55mom" path="res://prototipo/potion_none.gd" id="4_fmmg0"]
+
+[node name="teste_2" type="Node2D" unique_id=1109813008]
+
+[node name="botoes_2" parent="." unique_id=1538753086 instance=ExtResource("1_vw2ds")]
+position = Vector2(100, 50)
+
+[node name="receita" type="Label" parent="." unique_id=2057550794]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 35.0
+offset_top = 3.0
+offset_right = 174.0
+offset_bottom = 32.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 9
+text = "receitas: ⬆️⬆️⬇️⬇️⬅➡️
+                 ⬆️⬅➡️⬅⬅⬇️"
+
+[node name="potion 1" type="Label" parent="." unique_id=362681586]
+offset_left = 29.0
+offset_top = 69.0
+offset_right = 172.0
+offset_bottom = 82.0
+theme_override_colors/font_color = Color(0.5370943, 0.0032039678, 0.87472177, 1)
+theme_override_font_sizes/font_size = 9
+text = "parabens tu fez a poção 1 (eba)"
+script = ExtResource("2_4comb")
+
+[node name="potion 2" type="Label" parent="." unique_id=1424289215]
+offset_left = 29.0
+offset_top = 69.0
+offset_right = 172.0
+offset_bottom = 82.0
+theme_override_colors/font_color = Color(0, 0.7, 0.29166672, 1)
+theme_override_font_sizes/font_size = 9
+text = "parabens tu fez a poção 2 (eba)"
+script = ExtResource("3_p0ifw")
+
+[node name="potion none" type="Label" parent="." unique_id=1117772474]
+offset_left = 78.0
+offset_top = 63.0
+offset_right = 122.0
+offset_bottom = 86.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+text = "burro"
+script = ExtResource("4_fmmg0")
+
+[node name="restart" type="Button" parent="." unique_id=888379761]
+offset_left = 162.0
+offset_top = 11.0
+offset_right = 187.0
+offset_bottom = 27.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 5
+text = "restart"
+
+[connection signal="potion_made1" from="botoes_2" to="potion 1" method="_on_botoes_2_potion_made_1"]
+[connection signal="potion_made1" from="botoes_2" to="potion 2" method="_on_botoes_2_potion_made_1"]
+[connection signal="potion_made2" from="botoes_2" to="potion 1" method="_on_botoes_2_potion_made_2"]
+[connection signal="potion_made2" from="botoes_2" to="potion 2" method="_on_botoes_2_potion_made_2"]
+[connection signal="potion_none" from="botoes_2" to="potion none" method="_on_botoes_2_potion_none"]
+[connection signal="pressed" from="restart" to="botoes_2" method="_on_restart_pressed"]
+[connection signal="pressed" from="restart" to="potion none" method="_on_restart_pressed"]
