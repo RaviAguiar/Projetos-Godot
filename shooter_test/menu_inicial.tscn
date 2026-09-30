@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://wcoeuejlch1s"]
+
+[ext_resource type="Script" uid="uid://bspdbcfllgruu" path="res://menu_inicial.gd" id="1_u4fxu"]
+
+[node name="Menu_inicial" type="Node2D" unique_id=1367807450]
+script = ExtResource("1_u4fxu")
+
+[node name="Button" type="Button" parent="." unique_id=319007968]
+offset_left = 106.0
+offset_top = 68.0
+offset_right = 190.0
+offset_bottom = 99.0
+text = "Iniciar"
+
+[node name="Button2" type="Button" parent="." unique_id=1065795652]
+offset_left = 107.0
+offset_top = 106.0
+offset_right = 191.0
+offset_bottom = 137.0
+text = "sair"
+
+[node name="Label" type="Label" parent="." unique_id=1389597231]
+offset_left = 39.0
+offset_top = 15.0
+offset_right = 266.0
+offset_bottom = 49.0
+text = "random ass game i'm making"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

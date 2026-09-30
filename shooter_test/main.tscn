@@ -1,3 +1,13 @@
 [gd_scene format=3 uid="uid://d1gi58k78ke8m"]
 
+[ext_resource type="Script" uid="uid://hyxvqov0pjm6" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://b3bjptonvowse" path="res://cutscene.tscn" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://wcoeuejlch1s" path="res://menu_inicial.tscn" id="3_h2yge"]
+
 [node name="main" type="Node2D" unique_id=14548079]
+script = ExtResource("1_0xm2m")
+
+[node name="Cutscene" parent="." unique_id=825341424 instance=ExtResource("2_h2yge")]
+visible = false
+
+[node name="Menu_inicial" parent="." unique_id=1367807450 instance=ExtResource("3_h2yge")]

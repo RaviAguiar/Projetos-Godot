@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://b3bjptonvowse"]
+
+[ext_resource type="Script" uid="uid://dbvg1eydpjj6u" path="res://cutscene.gd" id="1_ix241"]
+[ext_resource type="Texture2D" uid="uid://cjikn0d8e6sg5" path="res://panqueca_flamejante.png" id="2_8vcau"]
+[ext_resource type="AudioStream" uid="uid://cv8d6mvjyu363" path="res://explosao.mp3" id="3_8vcau"]
+[ext_resource type="Texture2D" uid="uid://dxtoryrukx6vd" path="res://bab shipudden.png" id="3_bl24s"]
+
+[node name="Cutscene" type="Node2D" unique_id=825341424]
+script = ExtResource("1_ix241")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1831976879]
+position = Vector2(147, 60)
+scale = Vector2(0.17000853, 0.15133335)
+texture = ExtResource("2_8vcau")
+metadata/_edit_group_ = true
+
+[node name="bab" type="Sprite2D" parent="." unique_id=1036971886]
+z_index = 2
+position = Vector2(149, 72)
+scale = Vector2(0.5095819, 0.18156424)
+texture = ExtResource("3_bl24s")
+
+[node name="Label" type="Label" parent="." unique_id=1357764311]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 45.0
+offset_top = 102.0
+offset_right = 252.0
+offset_bottom = 125.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+text = "PANQUECAS FLAMEJANTES"
+
+[node name="Explosao_som" type="AudioStreamPlayer2D" parent="." unique_id=34039152]
+z_index = 2
+position = Vector2(0, 2)
+stream = ExtResource("3_8vcau")
