@@ -1,10 +1,14 @@
 [gd_scene format=3 uid="uid://r3b3chv4v8qc"]
 
-[ext_resource type="Texture2D" uid="uid://dxtoryrukx6vd" path="res://bab shipudden.png" id="1_80nbo"]
+[ext_resource type="Script" uid="uid://cj37uqtkjcft6" path="res://game.gd" id="1_e2o6t"]
+[ext_resource type="Texture2D" uid="uid://bt8i5aof824qk" path="res://cursor.png" id="2_e2o6t"]
 
 [node name="Game" type="Node2D" unique_id=1243470277]
+script = ExtResource("1_e2o6t")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1592433001]
-position = Vector2(142.5, 65.49998)
-scale = Vector2(0.21777003, 1.0768156)
-texture = ExtResource("1_80nbo")
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=461952229]
+
+[node name="cursor" type="Sprite2D" parent="CanvasLayer" unique_id=1592433001]
+position = Vector2(236, 22)
+scale = Vector2(0.21093744, 0.21093744)
+texture = ExtResource("2_e2o6t")

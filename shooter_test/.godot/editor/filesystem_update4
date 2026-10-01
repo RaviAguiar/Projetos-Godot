@@ -1,3 +1,2 @@
-res://cutscene.gd
-res://menu_inicial.gd
 res://game.tscn
+res://game.gd
