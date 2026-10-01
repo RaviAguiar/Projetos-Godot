@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://r3b3chv4v8qc"]
+
+[ext_resource type="Texture2D" uid="uid://dxtoryrukx6vd" path="res://bab shipudden.png" id="1_80nbo"]
+
+[node name="Game" type="Node2D" unique_id=1243470277]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1592433001]
+position = Vector2(142.5, 65.49998)
+scale = Vector2(0.21777003, 1.0768156)
+texture = ExtResource("1_80nbo")
