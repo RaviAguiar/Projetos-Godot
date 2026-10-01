@@ -1,13 +1,13 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790884968
+::res://::1790894565
 bab shipudden.png::CompressedTexture2D::8813710316221388385::1790801948::1790801948::1::::<><><>0<>0<>3b90d8c76b74e33489778ef90ed0b2eb<>res://.godot/imported/bab shipudden.png-e24d8cba54e02a60c3dc51ba5b4c23ca.ctex::
 ComicSansMS3.ttf::FontFile::5069262281618339449::1790800939::1790800939::1::::<><><>0<>0<>6ba46e28cf7c8a0b10c9fe95deb972e4<>res://.godot/imported/ComicSansMS3.ttf-bfde36d54ddd1e5667baa2bb9fbd2e00.fontdata::
 cursor.png::CompressedTexture2D::3788672510358600870::1691076754::1790884968::1::::<><><>0<>0<>fc4f9bbfc1ad623ebe2b84250c273071<>res://.godot/imported/cursor.png-9207886fa5a62b74129e260ee150454e.ctex::
 cutscene.gd::GDScript::7273213807476140014::1790881128::0::1::::<>Node2D<><>0<>0<><>::
 cutscene.tscn::PackedScene::4354346943345753632::1790802177::0::1::::<><><>0<>0<><>::uid://dbvg1eydpjj6u::::res://cutscene.gd<>uid://cjikn0d8e6sg5::::res://panqueca_flamejante.png<>uid://cv8d6mvjyu363::::res://explosao.mp3<>uid://dxtoryrukx6vd::::res://bab shipudden.png
 explosao.mp3::AudioStreamMP3::6315169723421110826::1790801643::1790801643::1::::<><><>0<>0<>2fb50aa2a69c3ffa723988d217540d49<>res://.godot/imported/explosao.mp3-56d444b3451a64ad6bc7ebf715019a41.mp3str::
-game.gd::GDScript::5464323067080144601::1790884951::0::1::::<>Node2D<><>0<>0<><>::
-game.tscn::PackedScene::1251123755036420734::1790884951::0::1::::<><><>0<>0<><>::uid://dxtoryrukx6vd::::res://bab shipudden.png<>uid://cj37uqtkjcft6::::res://game.gd
+game.gd::GDScript::5464323067080144601::1790885762::0::1::::<>Node2D<><>0<>0<><>::
+game.tscn::PackedScene::1251123755036420734::1790886235::0::1::::<><><>0<>0<><>::uid://cj37uqtkjcft6::::res://game.gd<>uid://bt8i5aof824qk::::res://cursor.png
 icon.svg::CompressedTexture2D::4189235627900057594::1790718262::1790718734::1::::<><><>0<>0<>bf3386b4f995b46be16adec403d68dca<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 menu_inicial.gd::GDScript::3680969585546252800::1790881128::0::1::::<>Node2D<><>0<>0<><>::
 menu_inicial.tscn::PackedScene::1549141553689108738::1790802594::0::1::::<><><>0<>0<><>::uid://bspdbcfllgruu::::res://menu_inicial.gd
