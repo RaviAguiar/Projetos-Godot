@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="shooter_test"
-run/main_scene="uid://d1gi58k78ke8m"
+run/main_scene="uid://b3bjptonvowse"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

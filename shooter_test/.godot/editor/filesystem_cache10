@@ -1,12 +1,14 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790801948
-59.png::CompressedTexture2D::3788672510358600870::1691076754::1790719166::1::::<><><>0<>0<>ee100383def34fcfab23ddf873e4fdcc<>res://.godot/imported/59.png-2c78d53ec31935c4b49a03d9bd46ef8d.ctex::
-bab shipudden.png::CompressedTexture2D::8813710316221388385::1790801948::1790801948::1::::<><><>0<>0<>3b90d8c76b74e33489778ef90ed0b2eb<>res://.godot/imported/bab shipudden.png-e24d8cba54e02a60c3dc51ba5b4c23ca.ctex::
-ComicSansMS3.ttf::FontFile::5069262281618339449::1790800939::1790800939::1::::<><><>0<>0<>6ba46e28cf7c8a0b10c9fe95deb972e4<>res://.godot/imported/ComicSansMS3.ttf-bfde36d54ddd1e5667baa2bb9fbd2e00.fontdata::
-explosao.mp3::AudioStreamMP3::6315169723421110826::1790801643::1790801643::1::::<><><>0<>0<>2fb50aa2a69c3ffa723988d217540d49<>res://.godot/imported/explosao.mp3-56d444b3451a64ad6bc7ebf715019a41.mp3str::
-icon.svg::CompressedTexture2D::4189235627900057594::1790718262::1790718734::1::::<><><>0<>0<>bf3386b4f995b46be16adec403d68dca<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.gd::GDScript::542301827058309635::1790718818::0::1::::<>Node2D<><>0<>0<><>::
-main.tscn::PackedScene::8997099312168812766::1790718780::0::1::::<><><>0<>0<><>::
-panqueca_flamejante.png::CompressedTexture2D::5421687686633520714::1790800728::1790800741::1::::<><><>0<>0<>9a812c7d0c4b8aed5bef382728de1238<>res://.godot/imported/panqueca_flamejante.png-ea72f2a9329969eae0b14beecfd671db.ctex::
-cutscene.gd::GDScript::7273213807476140014::1790801907::0::1::::<>Node2D<><>0<>0<><>::
-cutscene.tscn::PackedScene::4354346943345753632::1790801910::0::1::::<><><>0<>0<><>::uid://dbvg1eydpjj6u::::res://cutscene.gd<>uid://cjikn0d8e6sg5::::res://panqueca_flamejante.png<>uid://cv8d6mvjyu363::::res://explosao.mp3
+::res://::1790863167
+59.png::CompressedTexture2D::3788672510358600870::1790863132::1790863168::1::::<><><>0<>0<>ee100383def34fcfab23ddf873e4fdcc<>res://.godot/imported/59.png-2c78d53ec31935c4b49a03d9bd46ef8d.ctex::
+bab shipudden.png::CompressedTexture2D::8813710316221388385::1790863132::1790863168::1::::<><><>0<>0<>3b90d8c76b74e33489778ef90ed0b2eb<>res://.godot/imported/bab shipudden.png-e24d8cba54e02a60c3dc51ba5b4c23ca.ctex::
+ComicSansMS3.ttf::FontFile::5069262281618339449::1790863132::1790863168::1::::<><><>0<>0<>6ba46e28cf7c8a0b10c9fe95deb972e4<>res://.godot/imported/ComicSansMS3.ttf-bfde36d54ddd1e5667baa2bb9fbd2e00.fontdata::
+cutscene.gd::GDScript::7273213807476140014::1790863132::0::1::::<>Node2D<><>0<>0<><>::
+cutscene.tscn::PackedScene::4354346943345753632::1790863132::0::1::::<><><>0<>0<><>::uid://dbvg1eydpjj6u::::res://cutscene.gd<>uid://cjikn0d8e6sg5::::res://panqueca_flamejante.png<>uid://cv8d6mvjyu363::::res://explosao.mp3<>uid://dxtoryrukx6vd::::res://bab shipudden.png
+explosao.mp3::AudioStreamMP3::6315169723421110826::1790863132::1790863168::1::::<><><>0<>0<>2fb50aa2a69c3ffa723988d217540d49<>res://.godot/imported/explosao.mp3-56d444b3451a64ad6bc7ebf715019a41.mp3str::
+icon.svg::CompressedTexture2D::4189235627900057594::1790863132::1790863168::1::::<><><>0<>0<>bf3386b4f995b46be16adec403d68dca<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.gd::GDScript::542301827058309635::1790863132::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::8997099312168812766::1790863132::0::1::::<><><>0<>0<><>::uid://hyxvqov0pjm6::::res://main.gd<>uid://b3bjptonvowse::::res://cutscene.tscn<>uid://wcoeuejlch1s::::res://menu_inicial.tscn
+menu_inicial.gd::GDScript::3680969585546252800::1790863132::0::1::::<>Node2D<><>0<>0<><>::
+menu_inicial.tscn::PackedScene::1549141553689108738::1790863132::0::1::::<><><>0<>0<><>::uid://bspdbcfllgruu::::res://menu_inicial.gd
+panqueca_flamejante.png::CompressedTexture2D::5421687686633520714::1790863132::1790863168::1::::<><><>0<>0<>9a812c7d0c4b8aed5bef382728de1238<>res://.godot/imported/panqueca_flamejante.png-ea72f2a9329969eae0b14beecfd671db.ctex::

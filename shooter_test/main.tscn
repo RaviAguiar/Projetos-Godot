@@ -1,11 +1,28 @@
 [gd_scene format=3 uid="uid://d1gi58k78ke8m"]
 
-[ext_resource type="Script" uid="uid://hyxvqov0pjm6" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://b3bjptonvowse" path="res://cutscene.tscn" id="2_h2yge"]
 [ext_resource type="PackedScene" uid="uid://wcoeuejlch1s" path="res://menu_inicial.tscn" id="3_h2yge"]
 
+[sub_resource type="GDScript" id="GDScript_0xm2m"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	$Cutscene.show()
+	$Menu_inicial.hide()
+	await get_tree().create_timer(8.0).timeout
+	$Cutscene.hide()
+	$Menu_inicial.show()
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
 [node name="main" type="Node2D" unique_id=14548079]
-script = ExtResource("1_0xm2m")
+script = SubResource("GDScript_0xm2m")
 
 [node name="Cutscene" parent="." unique_id=825341424 instance=ExtResource("2_h2yge")]
 visible = false

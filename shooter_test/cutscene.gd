@@ -23,3 +23,5 @@ func animacao():
 	await get_tree().create_timer(2.0).timeout
 	$bab.show()
 	$Explosao_som.play()
+	await get_tree().create_timer(2.0).timeout
+	get_tree().change_scene_to_file('res://menu_inicial.tscn')
