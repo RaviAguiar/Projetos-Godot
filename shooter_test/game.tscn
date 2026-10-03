@@ -2,13 +2,61 @@
 
 [ext_resource type="Script" uid="uid://cj37uqtkjcft6" path="res://game.gd" id="1_e2o6t"]
 [ext_resource type="Texture2D" uid="uid://bt8i5aof824qk" path="res://cursor.png" id="2_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://bqc5nq104a462" path="res://target.tscn" id="2_feb5d"]
+[ext_resource type="FontFile" uid="uid://cehuaktvfqrs8" path="res://ComicSansMS3.ttf" id="4_fc0e3"]
 
 [node name="Game" type="Node2D" unique_id=1243470277]
 script = ExtResource("1_e2o6t")
+target_scene = ExtResource("2_feb5d")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=461952229]
 
 [node name="cursor" type="Sprite2D" parent="CanvasLayer" unique_id=1592433001]
-position = Vector2(236, 22)
+z_index = 3
+position = Vector2(30, 20)
 scale = Vector2(0.21093744, 0.21093744)
 texture = ExtResource("2_e2o6t")
+
+[node name="Label_Score" type="Label" parent="CanvasLayer" unique_id=878571749]
+offset_left = 7.0
+offset_right = 76.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("4_fc0e3")
+text = "Pontos: 0"
+
+[node name="Label_Lose" type="Label" parent="CanvasLayer" unique_id=1535250206]
+offset_left = 103.0
+offset_top = 48.0
+offset_right = 205.0
+offset_bottom = 71.0
+theme_override_fonts/font = ExtResource("4_fc0e3")
+text = "Perdeu baka!"
+
+[node name="Button_Retry" type="Button" parent="CanvasLayer" unique_id=882791233]
+offset_left = 115.0
+offset_top = 79.0
+offset_right = 192.0
+offset_bottom = 110.0
+theme_override_fonts/font = ExtResource("4_fc0e3")
+text = "try again"
+
+[node name="Label_Targets" type="Label" parent="CanvasLayer" unique_id=1866252210]
+offset_left = 220.0
+offset_right = 279.0
+offset_bottom = 23.0
+text = "Alvos: 0"
+
+[node name="Button_quit" type="Button" parent="CanvasLayer" unique_id=1679865929]
+offset_left = 108.0
+offset_top = 113.0
+offset_right = 204.0
+offset_bottom = 144.0
+theme_override_fonts/font = ExtResource("4_fc0e3")
+text = "sair do jogo"
+
+[node name="Mob_Timer" type="Timer" parent="." unique_id=1840567264]
+autostart = true
+
+[connection signal="pressed" from="CanvasLayer/Button_Retry" to="." method="_on_button_retry_pressed"]
+[connection signal="pressed" from="CanvasLayer/Button_quit" to="." method="_on_button_quit_pressed"]
+[connection signal="timeout" from="Mob_Timer" to="." method="_on_mob_timer_timeout"]

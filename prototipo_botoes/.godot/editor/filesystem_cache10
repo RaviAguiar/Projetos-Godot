@@ -1,0 +1,11 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1791029694
+::res://prototipo/::1790718262
+arrow_tiles.png::CompressedTexture2D::4982971833056940520::1790718262::1791029695::1::::<><><>0<>0<>79a511a451129c28d560b9c914f7f101<>res://.godot/imported/arrow_tiles.png-f08dc22ab48457ccc17adf7f31fca31e.ctex::
+botoes_2.gd::GDScript::957066281434990089::1790718262::0::1::::<>Node2D<><>0<>0<><>::
+botoes_2.tscn::PackedScene::70791701021765498::1790718262::0::1::::<><><>0<>0<><>::uid://nvu0hsy6oeer::::res://prototipo/botoes_2.gd<>uid://hcs5f8ukr88a::::res://prototipo/empty_tile.png<>uid://cc8122xni1ktk::::res://prototipo/arrow_tiles.png
+empty_tile.png::CompressedTexture2D::496597455179365198::1790718262::1791029695::1::::<><><>0<>0<>3a7a29f54ca2104bce9ba66315880df6<>res://.godot/imported/empty_tile.png-eb875a5ec750b27594b90c07c365380c.ctex::
+potion_1.gd::GDScript::5271828693039465071::1790718262::0::1::::<>Label<><>0<>0<><>::
+potion_2.gd::GDScript::725462578260980251::1790718262::0::1::::<>Label<><>0<>0<><>::
+potion_none.gd::GDScript::8746549820314931368::1790718262::0::1::::<>Label<><>0<>0<><>::
+teste_2.tscn::PackedScene::4288948152434899472::1790718262::0::1::::<><><>0<>0<><>::uid://baj6t5mdto1g::::res://prototipo/botoes_2.tscn<>uid://chdyipdf1qfvr::::res://prototipo/potion_1.gd<>uid://kloi6wc1v6xj::::res://prototipo/potion_2.gd<>uid://dwu5nrxm55mom::::res://prototipo/potion_none.gd
