@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dfo5yd65se61i"]
+
+[ext_resource type="Script" uid="uid://crulvjr47fdqc" path="res://como_jogar.gd" id="1_8djk7"]
+
+[node name="como_jogar" type="Node2D" unique_id=1794492736]
+script = ExtResource("1_8djk7")
+
+[node name="Label" type="Label" parent="." unique_id=1298099157]
+offset_left = 30.0
+offset_top = 23.0
+offset_right = 279.0
+offset_bottom = 83.0
+theme_override_font_sizes/font_size = 13
+text = "apenas atire nos inimigos malignos
+maléficos malegnos e se ficar 10 na tela
+tu morre"
+
+[node name="Button" type="Button" parent="." unique_id=1424832304]
+offset_left = 234.0
+offset_top = 108.0
+offset_right = 288.0
+offset_bottom = 139.0
+text = "voltar"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

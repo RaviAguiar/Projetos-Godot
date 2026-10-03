@@ -7,9 +7,9 @@ script = ExtResource("1_u4fxu")
 
 [node name="Button" type="Button" parent="." unique_id=319007968]
 offset_left = 106.0
-offset_top = 68.0
+offset_top = 39.0
 offset_right = 190.0
-offset_bottom = 99.0
+offset_bottom = 70.0
 text = "Iniciar"
 
 [node name="Button2" type="Button" parent="." unique_id=1065795652]
@@ -26,5 +26,13 @@ offset_right = 266.0
 offset_bottom = 49.0
 text = "random ass game i'm making"
 
+[node name="Button3" type="Button" parent="." unique_id=863095329]
+offset_left = 100.0
+offset_top = 72.0
+offset_right = 195.0
+offset_bottom = 103.0
+text = "como jogar"
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
