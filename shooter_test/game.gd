@@ -70,6 +70,7 @@ func _on_button_retry_pressed() -> void:
 	quantity_targets = 0
 	label_targets.text = 'Alvos: ' + str(quantity_targets)
 	points = 0
+	label_score.text = "Pontos: " + str(points)
 	$Mob_Timer.wait_time = 1.0
 	death = false
 	for target in get_tree().get_nodes_in_group('targets'):
