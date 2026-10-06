@@ -1,8 +1,23 @@
 [gd_scene format=3 uid="uid://b3ghh6q7tfxcy"]
 
 [ext_resource type="PackedScene" uid="uid://ct4q4uwtdb" path="res://Entities/player.tscn" id="1_ebmjs"]
+[ext_resource type="Script" uid="uid://csbcvnk8tuo8r" path="res://Scenes/game.gd" id="1_wrm1d"]
+[ext_resource type="PackedScene" uid="uid://ctklypk6bsk8q" path="res://Entities/dois_canos.tscn" id="2_3dryh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fjgk6"]
+size = Vector2(300, 1)
 
 [node name="Game" type="Node2D" unique_id=1331370005]
+script = ExtResource("1_wrm1d")
+canos_scene = ExtResource("2_3dryh")
 
 [node name="Player" parent="." unique_id=189213515 instance=ExtResource("1_ebmjs")]
 position = Vector2(50, 75)
+
+[node name="Floor" type="Area2D" parent="." unique_id=2039381215]
+position = Vector2(0, 150)
+metadata/_edit_group_ = true
+
+[node name="Floor_Collision" type="CollisionShape2D" parent="Floor" unique_id=892287825]
+position = Vector2(150, -0.5)
+shape = SubResource("RectangleShape2D_fjgk6")
