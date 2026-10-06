@@ -5,7 +5,7 @@
 [node name="dois_canos" type="Node2D" unique_id=274365857]
 
 [node name="CanoU" parent="." unique_id=1499339166 instance=ExtResource("1_xl6l6")]
-position = Vector2(9, -78.8)
+position = Vector2(9, -165.8)
 
 [node name="CanoD" parent="." unique_id=1544728543 instance=ExtResource("1_xl6l6")]
-position = Vector2(9, 95)
+position = Vector2(9, 8)
