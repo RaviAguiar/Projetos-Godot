@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://vc0lxt2a5f57"]
+
+[ext_resource type="Script" uid="uid://p51cn8n4vck8" path="res://Scenes/main_menu.gd" id="1_28flt"]
+
+[node name="Main Menu" type="Node2D" unique_id=1588590595]
+script = ExtResource("1_28flt")
+
+[node name="Label_Tittle" type="Label" parent="." unique_id=2031121896]
+offset_left = 66.0
+offset_top = 25.0
+offset_right = 234.0
+offset_bottom = 48.0
+size_flags_horizontal = 4
+text = "GALADINHO VOADOR"
+
+[node name="Button_Iniciar" type="Button" parent="." unique_id=1886604783]
+offset_left = 115.0
+offset_top = 68.0
+offset_right = 182.0
+offset_bottom = 99.0
+text = "INICIAR"
+
+[node name="Button_Sair" type="Button" parent="." unique_id=1369327981]
+offset_left = 115.0
+offset_top = 107.0
+offset_right = 182.0
+offset_bottom = 138.0
+text = "SAIR"
+
+[connection signal="pressed" from="Button_Iniciar" to="." method="_on_button_iniciar_pressed"]
+[connection signal="pressed" from="Button_Sair" to="." method="_on_button_sair_pressed"]
