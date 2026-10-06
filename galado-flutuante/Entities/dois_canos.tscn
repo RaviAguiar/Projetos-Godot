@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ctklypk6bsk8q"]
+
+[ext_resource type="PackedScene" uid="uid://bjregaf2rypac" path="res://Entities/cano.tscn" id="1_xl6l6"]
+
+[node name="dois_canos" type="Node2D" unique_id=274365857]
+
+[node name="Cano" parent="." unique_id=1544728543 instance=ExtResource("1_xl6l6")]
+position = Vector2(1, 61)
+
+[node name="Cano2" parent="." unique_id=1499339166 instance=ExtResource("1_xl6l6")]
+position = Vector2(2, -84)

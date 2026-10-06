@@ -3,9 +3,10 @@
 [ext_resource type="Texture2D" uid="uid://cr3qugspsb3dg" path="res://icon.svg" id="1_1o4c1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r34qk"]
-size = Vector2(31, 124)
+size = Vector2(29, 122)
 
 [node name="Cano" type="Area2D" unique_id=1544728543]
+position = Vector2(1, -42)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=353744987]
 position = Vector2(5.4999986, 53)
@@ -13,5 +14,5 @@ scale = Vector2(0.2421875, 0.96875)
 texture = ExtResource("1_1o4c1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1931491501]
-position = Vector2(5.5, 52)
+position = Vector2(5.5, 51)
 shape = SubResource("RectangleShape2D_r34qk")
