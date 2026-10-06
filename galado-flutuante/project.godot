@@ -11,12 +11,15 @@ config_version=5
 [application]
 
 config/name="Galado Flutuante"
-run/main_scene="uid://ct4q4uwtdb"
+run/main_scene="uid://b3ghh6q7tfxcy"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=300
+window/size/viewport_height=150
+window/size/mode=2
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
