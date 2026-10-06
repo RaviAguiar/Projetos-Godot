@@ -6,7 +6,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x0u3t"]
 
 [node name="Player" type="CharacterBody2D" unique_id=189213515]
+scale = Vector2(0.15, 0.15)
 script = ExtResource("1_gb1tc")
+metadata/_edit_group_ = true
 
 [node name="Sprite_Player" type="Sprite2D" parent="." unique_id=390724097]
 texture = ExtResource("2_xd3k7")
