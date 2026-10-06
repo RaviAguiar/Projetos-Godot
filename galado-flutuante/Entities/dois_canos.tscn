@@ -4,8 +4,8 @@
 
 [node name="dois_canos" type="Node2D" unique_id=274365857]
 
-[node name="Cano" parent="." unique_id=1544728543 instance=ExtResource("1_xl6l6")]
-position = Vector2(1, 61)
+[node name="CanoU" parent="." unique_id=1499339166 instance=ExtResource("1_xl6l6")]
+position = Vector2(9, -78.8)
 
-[node name="Cano2" parent="." unique_id=1499339166 instance=ExtResource("1_xl6l6")]
-position = Vector2(2, -84)
+[node name="CanoD" parent="." unique_id=1544728543 instance=ExtResource("1_xl6l6")]
+position = Vector2(9, 95)
