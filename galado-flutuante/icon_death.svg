@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+	<defs>
+		<image  width="128" height="128" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAAAXNSR0IB2cksfwAAACRQTFRFAAAAUjY9UTY9Nj1SAAAAUTU8UTY9UDU9UTY8UjY9AAAAAAAAP3JHVQAAAAx0Uk5TAP/aAAWdp3yo5wMCsgxkrAAAAMdJREFUeJzt2r0NAjEMhmH7ECBRHVSUiA3QTcAIDAJiBiZjASQmgCsp+JuAEEdI1NgUIL0uojTfUyTpvqjYaC2fT7qXqC1DR9yy1wI08mh9gFQT2WUgHZ15kVFtwMGdF5lmYNYGgOqiMt8HgM5ZvVfwmpu6nsB7UhxYbENAV2NHkF8iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA/Ar0faPvChWUM6J+Cpe1m+YXauHEX31Z9GyCrtTM/GFt1LtHyvmz93weeUuMq+ITRveIAAAAASUVORK5CYII="/>
+		<image  width="94" height="89" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAABZAQMAAACNGQGVAAAAAXNSR0IB2cksfwAAAAZQTFRFR4y/v0dHH780mAAAAAJ0Uk5TAP9bkSK1AAABNklEQVR4nO3TzUrDQBAH8JluMTkEk5vHFnwNoZEePPo8gqVZKvStJBEfpHmCJpJDotmss5PNtiviQfDmQpL9HWb2g38QaDw+QRvSF+kRHzMc0CI+Eop0xDZD0Xfht5D79oTi7hz31Qn0+htocww9M8jXvQFg1CAer1qGfH5B0V0fGOUCMWjTnNFEEuMKplHg4uBQ+ljlDjXy8uPofGg3B/UDvBqvtQdvB95GPQStg/zHLyH6M4ATmohZ0QzFZmcRPFCDJlJzCmCay694u1RCCYcuULvtbW7WMdDS4f2CgYQ6NtisRyQ4UKpXjC5k0J+HOAC83kBSUeYZ4yCAy5iaI7iMUa0PF6tyieCSVKQI7kZkRgcfps7m5HrqbGBTWicGtoPM+IIGW8K/Jq9ULkeYFlRuAZrn8AlDF9RmNv7ohwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #414042 } 
+	</style>
+	<use  href="#img1" x="0" y="0"/>
+	<g>
+		<path class="s0" d="m22.93 80.3v3.33q41.1 35.75 82.21 0v-3.33z"/>
+		<use  href="#img2" x="17" y="20"/>
+		<path class="s0" d="m61.11 72.92c0 3.44 5.85 3.44 5.85 0v-8.68c0-3.44-5.85-3.44-5.85 0z"/>
+		<path fill-rule="evenodd" class="s0" d="m85.55 74.54c-5.03 0-9.09-4.07-9.09-9.09 0-5.03 4.06-9.09 9.09-9.09 5.02 0 9.09 4.06 9.09 9.09 0 5.02-4.07 9.09-9.09 9.09z"/>
+		<path fill-rule="evenodd" class="s0" d="m42.52 74.54c-5.03 0-9.09-4.07-9.09-9.09 0-5.03 4.06-9.09 9.09-9.09 5.03 0 9.09 4.06 9.09 9.09 0 5.02-4.06 9.09-9.09 9.09z"/>
+	</g>
+	<g>
+		<path fill-rule="evenodd" class="s1" d="m43.33 72.11c-3.35 0-6.06-2.7-6.06-6.06 0-3.35 2.71-6.06 6.06-6.06 3.35 0 6.06 2.71 6.06 6.06 0 3.36-2.71 6.06-6.06 6.06z"/>
+		<path fill-rule="evenodd" class="s1" d="m84.74 72.11c-3.35 0-6.06-2.7-6.06-6.06 0-3.35 2.71-6.06 6.06-6.06 3.35 0 6.06 2.71 6.06 6.06 0 3.36-2.71 6.06-6.06 6.06z"/>
+	</g>
+</svg>

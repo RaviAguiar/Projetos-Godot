@@ -1,5 +1,6 @@
 extends CharacterBody2D
 var freeze = true
+signal game_over_process
 
 
 const SPEED = 300.0
@@ -19,3 +20,10 @@ func _physics_process(delta: float) -> void:
 
 func _on_game_unfreeze() -> void:
 	freeze = false
+	
+
+func _on_floor_body_entered(body: Node2D) -> void:
+	set_physics_process(false)
+	game_over_process.emit()
+	$Sprite_Player.texture = load("res://icon_death.svg")
+	

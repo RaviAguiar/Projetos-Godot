@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://ct4q4uwtdb" path="res://Entities/player.tscn" id="1_ebmjs"]
 [ext_resource type="Script" uid="uid://csbcvnk8tuo8r" path="res://Scenes/game.gd" id="1_wrm1d"]
 [ext_resource type="PackedScene" uid="uid://ctklypk6bsk8q" path="res://Entities/dois_canos.tscn" id="2_3dryh"]
+[ext_resource type="Script" uid="uid://crmsqealp0tea" path="res://Scenes/floor.gd" id="4_3dryh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fjgk6"]
 size = Vector2(300, 1)
@@ -18,7 +19,9 @@ canos_scene = ExtResource("2_3dryh")
 position = Vector2(50, 75)
 
 [node name="Floor" type="Area2D" parent="." unique_id=2039381215]
-position = Vector2(0, 150)
+position = Vector2(-1, 155)
+scale = Vector2(1.0026246, 5.0399976)
+script = ExtResource("4_3dryh")
 metadata/_edit_group_ = true
 
 [node name="Floor_Collision" type="CollisionShape2D" parent="Floor" unique_id=892287825]
@@ -34,9 +37,62 @@ theme_override_font_sizes/font_size = 64
 text = "3"
 
 [node name="Ceiling" type="StaticBody2D" parent="." unique_id=580153068]
+collision_layer = 2
+collision_mask = 0
 
 [node name="Ceiling_Colission" type="CollisionShape2D" parent="Ceiling" unique_id=1247660704]
 position = Vector2(149.5, -1.5)
 shape = SubResource("RectangleShape2D_r34qk")
 
+[node name="Game_Over" type="Label" parent="." unique_id=730070486]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 100.5
+offset_top = 41.5
+offset_right = 199.5
+offset_bottom = 64.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 16
+text = "FIM DE JOGO"
+
+[node name="Button_Continuar" type="Button" parent="." unique_id=1019751914]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 117.0
+offset_top = 75.0
+offset_right = 183.0
+offset_bottom = 95.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "CONTINUAR"
+
+[node name="Button_Voltar" type="Button" parent="." unique_id=555000736]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 117.0
+offset_top = 107.0
+offset_right = 183.0
+offset_bottom = 127.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "VOLTAR"
+
 [connection signal="unfreeze" from="." to="Player" method="_on_game_unfreeze"]
+[connection signal="game_over_process" from="Player" to="." method="_on_player_game_over_process"]
+[connection signal="body_entered" from="Floor" to="Player" method="_on_floor_body_entered"]
+[connection signal="pressed" from="Button_Continuar" to="." method="_on_button_continuar_pressed"]
+[connection signal="pressed" from="Button_Voltar" to="." method="_on_button_voltar_pressed"]
